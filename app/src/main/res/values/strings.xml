@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">GPA</string>
+    <string name="Grade">Choose a grade</string>
+
+    <string-array name="grade_arrays">
+        <item>A   </item>
+        <item>A-  </item>
+        <item>B+  </item>
+        <item>B   </item>
+        <item>B-  </item>
+        <item>C+  </item>
+        <item>C   </item>
+        <item>C-  </item>
+        <item>D+  </item>
+        <item>D   </item>
+        <item>F   </item>
+    </string-array>
+</resources>

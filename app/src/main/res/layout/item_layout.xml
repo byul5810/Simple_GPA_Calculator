@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    -<HorizontalScrollView
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent">
+
+
+    -<LinearLayout
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:weightSum="1">
+
+    <CheckBox
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginRight="5dp"
+        android:saveEnabled="false"
+        android:id="@+id/item_checkbox"/>
+
+    <Spinner
+        android:id="@+id/spinner"
+        style="@android:style/Widget.Holo.Light.Spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:gravity="center">
+
+    </Spinner>
+
+
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/item_credit"
+        android:textColorHint="#7e7e7e"
+        android:hint="credit"
+        android:layout_marginRight="10dp"
+        android:gravity="center"
+        android:inputType="numberDecimal"/>
+
+
+    <EditText
+        android:id="@+id/item_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="3dp"
+        android:gravity="center"
+        android:hint=" number "
+        android:inputType="numberDecimal"
+        android:textColorHint="#7e7e7e" />
+
+
+</LinearLayout>
+
+</HorizontalScrollView>
+
+</LinearLayout>
